@@ -453,7 +453,7 @@ d.run(function () {
 					if (err) {
 							scope.logger.error(err);
 					} else {
-							scope.logger.info("Cleaned up successfully");
+							scope.logger.info("Cleaned up successfully!");
 					}
 					process.exit(1);
 				});
